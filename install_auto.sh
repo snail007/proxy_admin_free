@@ -1,7 +1,6 @@
 #!/bin/bash
 F="proxy-admin-free_linux-amd64.tar.gz"
 
-set -e
 if [ -e /etc/gpaf ]; then
     rm -rf /etc/gpaf
 fi
