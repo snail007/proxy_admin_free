@@ -1,5 +1,5 @@
 # 关于 ProxyAdminFree
-ProxyAdminFree 是强大的代理服务工具 [snail007/goproxy](https://github.com/snail007/goproxy) 的控制面板，运行了它，一秒让你的服务器变为强大的代理服务器，友好的交互界面，让你用起来得心应手，心情舒畅。
+ProxyAdminFree 是强大的代理服务工具 [snail007/goproxy](https://github.com/snail007/goproxy) 的控制面板，运行了它，一秒让你的服务器变为强大的代理服务器，友好的交互界面，小白也能轻松上手，让你用起来得心应手，心情舒畅。
 
 <hr>
 
