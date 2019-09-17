@@ -29,7 +29,21 @@ ProxyAdminFree is a powerful web console of [snail007/goproxy](https://github.co
 
 ## Start Using
 
-### Download
+### Quick Installation
+
+If your VPS is a Linux 64-bit system, you only need to execute the following sentence to complete the automatic installation and configuration.
+
+Tip: All operations require root privileges.
+
+```shell
+curl -L https://raw.githubusercontent.com/snail007/proxy_admin_free/master/install_auto.sh | bash
+```
+
+The installation is complete, the configuration directory is /etc/gpaf. For more detailed usage, please refer to the manual directory above to learn more about the features you want to use.
+
+If the installation fails or your vps is not a linux64-bit system, follow the manual installation steps below.
+  
+### Manual Installation
 
 Select the file that is appropriate for your system and download it, [click to download](https://github.com/snail007/proxy_admin_free/releases)
 
@@ -58,7 +72,7 @@ The administrator account executes cmd.exe
 
 `proxy-admin-free.exe install`
 
-### access
+### Access
 
 After the installation is successful, open the browser to access: http://127.0.0.1:32080, the first default account is root, the password is 123, remember to modify the first time after login.
 

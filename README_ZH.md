@@ -33,7 +33,21 @@ ProxyAdminFree 是强大的代理服务工具 [snail007/goproxy](https://github.
 
 ## 开始使用
 
-### 下载
+### 快速安装
+
+如果你的VPS是 linux 64位的系统，那么只需要执行下面一句，就可以完成自动安装和配置.
+
+提示:所有操作需要root权限。 
+
+```shell  
+curl -L https://raw.githubusercontent.com/snail007/proxy_admin_free/master/install_auto.sh | bash  
+```  
+
+安装完成，配置目录是/etc/gpaf，更详细的使用方法请参考上面的手册目录，进一步了解你想要使用的功能。 
+ 
+如果安装失败或者你的vps不是linux64位系统，请按照下面的手动安装步骤安装。 
+  
+### 手动安装  
 
 选择适合你的系统的文件并下载，[点击进入下载](https://github.com/snail007/proxy_admin_free/releases)
 
