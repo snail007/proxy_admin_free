@@ -125,4 +125,4 @@ Windows下面可以使用系统的服务管理器管理。
 
 [笔下光年](https://gitee.com/yinqi) 提供的后台模板给我们带来舒畅的交互体验.
 
-[gogf](https://github.com/gogf/gf) 提供的方便强大的框架让控制面板开发起来更加流畅自如。
+[GoFrame](https://github.com/gogf/gf) 提供的方便强大的框架让控制面板开发起来更加流畅自如。

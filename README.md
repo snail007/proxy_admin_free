@@ -121,4 +121,4 @@ Windows can be managed using the system's Service Manager.
 
 [Back to the light](https://gitee.com/yinqi) The back-end template provided us a comfortable interactive experience.
 
-[gogf](https://github.com/gogf/gf) provides a convenient and powerful framework to make the agent backstage development more fluent.
+[GoFrame](https://github.com/gogf/gf) provides a convenient and powerful framework to make the agent backstage development more fluent.
