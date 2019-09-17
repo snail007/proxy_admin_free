@@ -27,7 +27,7 @@ ProxyAdminFree 是强大的代理服务工具 [snail007/goproxy](https://github.
 
 ### 下载
 
-选择适合你的系统的文件并下载，[点击进入下载]()
+选择适合你的系统的文件并下载，[点击进入下载](https://github.com/snail007/proxy_admin_free/releases)
 
 ### Linux && MacOS
 

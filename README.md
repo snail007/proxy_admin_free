@@ -27,7 +27,7 @@ ProxyAdminFree is a powerful web console of [snail007/goproxy](https://github.co
 
 ### Download
 
-Select the file that is appropriate for your system and download it, [click to download] ()
+Select the file that is appropriate for your system and download it, [click to download](https://github.com/snail007/proxy_admin_free/releases)
 
 ### Linux && MacOS
 
