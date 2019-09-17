@@ -1,7 +1,15 @@
 # 关于 ProxyAdminFree
 ProxyAdminFree 是强大的代理服务工具 [snail007/goproxy](https://github.com/snail007/goproxy) 的控制面板，运行了它，一秒让你的服务器变为强大的代理服务器，友好的交互界面，让你用起来得心应手，心情舒畅。
 
+<hr>
+
 [English](/README_ZH.md)
+
+[snail007/goproxy manual](https://snail007.github.io/goproxy/manual/#/)
+
+## 加入我们
+
+欢迎加官方群交流，QQ群：`42805407` [电报群](https://t.me/snail007_goproxy)
 
 ## 预览
 
@@ -112,3 +120,9 @@ Linux下面可以通过systemctl管理。
 MacOS下面可以通过命令管理。
 
 Windows下面可以使用系统的服务管理器管理。
+
+## 鸣谢
+
+[笔下光年](https://gitee.com/yinqi) 提供的后台模版给我们带来舒畅的交互体验.
+
+[gogf](https://github.com/gogf/gf) 提供的方便强大的框架让代理后台开发起来更加流畅自如。

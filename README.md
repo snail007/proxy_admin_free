@@ -1,7 +1,11 @@
 # About ProxyAdminFree
 ProxyAdminFree is a powerful web console of [snail007/goproxy](https://github.com/snail007/goproxy) .
 
+<hr>
+
 [中文简介](/README_ZH.md)
+
+[snail007/goproxy 手册](https://snail007.github.io/goproxy/manual/zh)
 
 ## Preview
 
@@ -112,3 +116,9 @@ Linux can be managed by systemctl.
 MacOS can be managed by commands below.
 
 Windows can be managed using the system's Service Manager.
+
+## Thanks
+
+[Back to the light] (https://gitee.com/yinqi) The back-end template provided us a comfortable interactive experience.
+
+[gogf] (https://github.com/gogf/gf) provides a convenient and powerful framework to make the agent backstage development more fluent.
