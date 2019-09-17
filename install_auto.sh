@@ -13,7 +13,7 @@ wget "https://github.com/snail007/proxy_admin_free/releases/download/${LAST_VERS
 # #install proxy
 tar zxvf $F
 chmod +x proxy-admin-free
-./proxy-admin-free uninstall
+./proxy-admin-free uninstall >/dev/null 2>&1 
 ./proxy-admin-free install
 rm $F
 systemctl  status ProxyAdminFree
