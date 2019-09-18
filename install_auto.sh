@@ -11,5 +11,6 @@ chmod +x proxy-admin-free
 ./proxy-admin-free uninstall >/dev/null 2>&1 
 ./proxy-admin-free install
 rm $F
-systemctl  status ProxyAdminFree
+systemctl  status ProxyAdminFree &
+sleep 1
 echo "install done, please visit : http://YOUR_IP:32080/"

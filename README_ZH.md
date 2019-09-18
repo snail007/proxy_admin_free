@@ -82,9 +82,9 @@ root账号执行：
 
 配置文件路径：
 
-Linux && MacOS 位于 /etc/gpfa/app.toml
+Linux && MacOS 位于 /etc/gpaf/app.toml
 
-Windows 位于 C:\gpfa\app.toml
+Windows 位于 C:\gpaf\app.toml
 
 可以配置监听的端口和日志记录。
 

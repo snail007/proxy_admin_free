@@ -78,9 +78,9 @@ After the installation is successful, open the browser to access: http://127.0.0
 
 Configuration file path:
 
-Linux && MacOS is located in /etc/gpfa/app.toml
+Linux && MacOS is located in /etc/gpaf/app.toml
 
-Windows is located at C:\gpfa\app.toml
+Windows is located at C:\gpaf\app.toml
 
 You can configure the listening port and logging.
 
