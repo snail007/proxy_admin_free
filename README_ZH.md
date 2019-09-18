@@ -33,6 +33,10 @@ ProxyAdminFree 是强大的代理服务工具 [snail007/goproxy](https://github.
 
 ## 开始使用
 
+### 视频安装教程
+
+[点击观看安装视频](https://space.bilibili.com/472844633/channel/detail?cid=88254)
+
 ### 快速安装
 
 如果你的VPS是 linux 64位的系统，那么只需要执行下面一句，就可以完成自动安装和配置.
