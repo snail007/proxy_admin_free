@@ -5,7 +5,7 @@ ProxyAdminFree is a powerful web console of [snail007/goproxy](https://github.co
 
 [中文简介](/README_ZH.md)
 
-[snail007/goproxy 手册](https://snail007.github.io/goproxy/manual/zh)
+[snail007/goproxy manual](https://snail007.github.io/goproxy/manual/#/)
 
 ## Preview
 

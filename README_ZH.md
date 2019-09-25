@@ -5,7 +5,7 @@ ProxyAdminFree 是强大的代理服务工具 [snail007/goproxy](https://github.
 
 [English](/README_ZH.md)
 
-[snail007/goproxy manual](https://snail007.github.io/goproxy/manual/#/)
+[snail007/goproxy 手册](https://snail007.github.io/goproxy/manual/zh)
 
 ## 加入我们
 
