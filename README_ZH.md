@@ -1,5 +1,5 @@
-# 关于 ProxyAdminFree
-ProxyAdminFree 是强大的代理服务工具 [snail007/goproxy](https://github.com/snail007/goproxy) 的控制面板，运行了它，一秒让你的服务器变为强大的代理服务器，友好的交互界面，小白也能轻松上手，让你用起来得心应手，心情舒畅。
+# 关于 ProxyAdmin
+ProxyAdmin 是强大的代理服务工具 [snail007/goproxy](https://github.com/snail007/goproxy) 的控制面板，运行了它，一秒让你的服务器变为强大的代理服务器，友好的交互界面，小白也能轻松上手，让你用起来得心应手，心情舒畅。
 
 <hr>
 
@@ -28,6 +28,15 @@ ProxyAdminFree 是强大的代理服务工具 [snail007/goproxy](https://github.
 ### 自定义服务
 ![](/res/images/diy_cn.gif)
 
+### 客户端连接参数
+![](/res/images/client_args.gif)
+
+### 实时日志
+![](/res/images/logging.gif)
+
+### 调试模式
+![](/res/images/debugging.gif)
+
 ### 全功能演示
 ![](/res/images/demo_cn.gif)
 
@@ -47,7 +56,7 @@ ProxyAdminFree 是强大的代理服务工具 [snail007/goproxy](https://github.
 curl -L https://raw.githubusercontent.com/snail007/proxy_admin_free/master/install_auto.sh | bash  
 ```  
 
-安装完成，配置目录是/etc/gpaf，更详细的使用方法请参考上面的手册目录，进一步了解你想要使用的功能。 
+安装完成，配置目录是/etc/gpa，更详细的使用方法请参考上面的手册目录，进一步了解你想要使用的功能。 
  
 如果安装失败或者你的vps不是linux64位系统，请按照下面的手动安装步骤安装。 
   
@@ -59,9 +68,9 @@ curl -L https://raw.githubusercontent.com/snail007/proxy_admin_free/master/insta
 
 root账号执行：
 
-`cd 进入“有proxy-admin-free的目录”`
+`cd 进入“有proxy-admin的目录”`
 
-`proxy-admin-free install`
+`proxy-admin install`
 
 
 ### Windows
@@ -76,9 +85,9 @@ root账号执行：
 
 管理员账号执行cmd.exe
 
-`cd 进入“有proxy-admin-free的目录”`
+`cd 进入“有proxy-admin的目录”`
 
-`proxy-admin-free.exe install`
+`proxy-admin.exe install`
 
 ### 访问
 
@@ -86,9 +95,9 @@ root账号执行：
 
 配置文件路径：
 
-Linux && MacOS 位于 /etc/gpaf/app.toml
+Linux && MacOS 位于 /etc/gpa/app.toml
 
-Windows 位于 C:\gpaf\app.toml
+Windows 位于 C:\gpa\app.toml
 
 可以配置监听的端口和日志记录。
 
@@ -98,18 +107,18 @@ Windows 位于 C:\gpaf\app.toml
 
 root账号执行：
 
-`cd 进入“有proxy-admin-free的目录”`
+`cd 进入“有proxy-admin的目录”`
 
-`proxy-admin-free uninstall`
+`proxy-admin uninstall`
 
 
 ### Windows
 
 管理员账号执行cmd.exe
 
-`cd 进入“有proxy-admin-free的目录”`
+`cd 进入“有proxy-admin的目录”`
 
-`proxy-admin-free.exe uninstall`
+`proxy-admin.exe uninstall`
 
 ## 服务管理
 
@@ -117,21 +126,21 @@ root账号执行：
 
 管理服务有两种方式：
 
-1.使用程序 proxy-admin-free 可以管理服务。
+1.使用程序 proxy-admin 可以管理服务。
 
-proxy-admin-free install    安装为系统服务
+proxy-admin install    安装为系统服务
 
-proxy-admin-free uninstall  卸载服务
+proxy-admin uninstall  卸载服务
 
-proxy-admin-free start      启动服务
+proxy-admin start      启动服务
 
-proxy-admin-free stop       停止服务
+proxy-admin stop       停止服务
 
-proxy-admin-free restart    重启服务
+proxy-admin restart    重启服务
 
 2.使用系统服务管理工具管理。
 
-proxy-admin-free 系统服务名称是：ProxyAdminFree
+proxy-admin 系统服务名称是：proxyadmin
 
 Linux下面可以通过systemctl管理。
 

@@ -1,5 +1,5 @@
-# About ProxyAdminFree
-ProxyAdminFree is a powerful web console of [snail007/goproxy](https://github.com/snail007/goproxy) .
+# About ProxyAdmin
+ProxyAdmin is a powerful web console of [snail007/goproxy](https://github.com/snail007/goproxy) .
 
 <hr>
 
@@ -24,6 +24,15 @@ ProxyAdminFree is a powerful web console of [snail007/goproxy](https://github.co
 ### DIY Service
 ![](/res/images/diy_en.gif)
 
+### Client Arguments
+![](/res/images/client_args.gif)
+
+### View Logging
+![](/res/images/logging.gif)
+
+### Debug Mode
+![](/res/images/debugging.gif)
+
 ### Full Demo
 ![](/res/images/demo_cn.gif)
 
@@ -39,7 +48,7 @@ Tip: All operations require root privileges.
 curl -L https://raw.githubusercontent.com/snail007/proxy_admin_free/master/install_auto.sh | bash
 ```
 
-The installation is complete, the configuration directory is /etc/gpaf. For more detailed usage, please refer to the manual directory above to learn more about the features you want to use.
+The installation is complete, the configuration directory is /etc/gpa. For more detailed usage, please refer to the manual directory above to learn more about the features you want to use.
 
 If the installation fails or your vps is not a linux64-bit system, follow the manual installation steps below.
   
@@ -51,9 +60,9 @@ Select the file that is appropriate for your system and download it, [click to d
 
 The root account is executed:
 
-`cd Enter "proxy-admin-free directory".
+`cd Enter "proxy-admin directory".
 
-`proxy-admin-free install`
+`proxy-admin install`
 
 
 ### Windows
@@ -68,9 +77,9 @@ The administrator opens goproxy_helper.exe and can install/uninstall/restart the
 
 The administrator account executes cmd.exe
 
-`cd Enter "proxy-admin-free directory".
+`cd Enter "proxy-admin directory".
 
-`proxy-admin-free.exe install`
+`proxy-admin.exe install`
 
 ### Access
 
@@ -78,9 +87,9 @@ After the installation is successful, open the browser to access: http://127.0.0
 
 Configuration file path:
 
-Linux && MacOS is located in /etc/gpaf/app.toml
+Linux && MacOS is located in /etc/gpa/app.toml
 
-Windows is located at C:\gpaf\app.toml
+Windows is located at C:\gpa\app.toml
 
 You can configure the listening port and logging.
 
@@ -90,18 +99,18 @@ You can configure the listening port and logging.
 
 The root account is executed:
 
-`cd Enter "proxy-admin-free directory".
+`cd Enter "proxy-admin directory".
 
-`proxy-admin-free uninstall`
+`proxy-admin uninstall`
 
 
 ### Windows
 
 The administrator account executes cmd.exe
 
-`cd Enter "proxy-admin-free directory".
+`cd Enter "proxy-admin directory".
 
-`proxy-admin-free.exe uninstall`
+`proxy-admin.exe uninstall`
 
 ## Service Management
 
@@ -109,21 +118,21 @@ The following operations must be done before the service is installed.
 
 There are two ways to manage services:
 
-1. Use the program proxy-admin-free to manage the service.
+1. Use the program proxy-admin to manage the service.
 
-Proxy-admin-free install install as system service
+proxy-admin install install as system service
 
-Proxy-admin-free uninstall uninstall service
+proxy-admin uninstall uninstall service
 
-Proxy-admin-free start
+proxy-admin start
 
-Proxy-admin-free stop
+proxy-admin stop
 
-Proxy-admin-free restart
+proxy-admin restart
 
 2. Manage using system service management tools.
 
-The proxy-admin-free system service name is: ProxyAdminFree
+The proxy-admin system service name is: proxyadmin
 
 Linux can be managed by systemctl.
 
