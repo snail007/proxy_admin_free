@@ -72,7 +72,7 @@ root账号执行：
 
 `cd 进入“有proxy-admin的目录”`
 
-`proxy-admin install`
+`./proxy-admin install`
 
 
 ### Windows
@@ -89,7 +89,7 @@ root账号执行：
 
 `cd 进入“有proxy-admin的目录”`
 
-`./proxy-admin.exe install`
+`proxy-admin.exe install`
 
 ### 访问
 
