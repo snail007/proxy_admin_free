@@ -62,7 +62,7 @@ The root account is executed:
 
 `cd Enter "proxy-admin directory".
 
-`proxy-admin install`
+`./proxy-admin install`
 
 
 ### Windows
@@ -101,7 +101,7 @@ The root account is executed:
 
 `cd Enter "proxy-admin directory".
 
-`proxy-admin uninstall`
+`./proxy-admin uninstall`
 
 
 ### Windows
