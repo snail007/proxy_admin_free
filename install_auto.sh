@@ -36,8 +36,8 @@ systemctl status proxyadmin &
 set -e
 sleep 2
 echo  -e "\n>>> install done, thanks for using snail007/proxy-admin\n"
-echo  -e ">>> install path /usr/bin/proxy\n"
-echo  -e ">>> configuration path /etc/proxy\n"
-echo  -e ">>> uninstall just exec : rm /usr/bin/proxy && rm /etc/proxy\n"
+echo  -e ">>> install path /usr/local/bin/proxy-admin\n"
+echo  -e ">>> configuration path /etc/gpa\n"
+echo  -e ">>> uninstall just exec : proxy-admin uninstall\n"
 echo  -e ">>> please visit : http://YOUR_IP:32080/ username: root, password: 123\n"
 echo  -e ">>> How to using? Please visit : $manual\n"
