@@ -20,7 +20,7 @@ LAST_VERSION=$(curl --silent "https://api.github.com/repos/snail007/proxy_admin_
 wget  -t 1 "https://github.com/snail007/proxy_admin_free/releases/download/${LAST_VERSION}/$F"
 else
 manual="https://snail007.github.io/goproxy/manual/zh/"
-wget  -t 1 "http://mirrors.host900.com/snail007/proxy_admin_free/$F"
+wget  -t 1 "http://mirrors.host900.com:9090/snail007/proxy_admin_free/$F"
 fi
 echo -e ">>> installing ... \n"
 #install proxy-admin
