@@ -30,6 +30,7 @@ set +e
 ./proxy-admin uninstall >/dev/null 2>&1 
 set -e
 ./proxy-admin install
+./proxy-admin start
 rm $F
 set +e
 systemctl status proxyadmin &
