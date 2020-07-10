@@ -52,16 +52,8 @@ ProxyAdmin 是强大的代理服务工具 [snail007/goproxy](https://github.com/
 
 提示:所有操作需要root权限。 
 
-##### 免费版执行这个哟:
-
 ```shell  
-curl -L https://mirrors.host900.com/snail007/proxy_admin_free/install_auto.sh | bash  
-```  
-
-##### VIP版执行这个:
-
-```shell  
-curl -L https://mirrors.host900.com/snail007/proxy-admin-vip/install_auto.sh | bash  
+curl -L https://raw.githubusercontent.com/snail007/proxy_admin_free/master/install_auto.sh | bash  
 ```  
 
 安装完成，配置目录是/etc/gpa，更详细的使用方法请参考上面的手册目录，进一步了解你想要使用的功能。 
@@ -70,11 +62,9 @@ curl -L https://mirrors.host900.com/snail007/proxy-admin-vip/install_auto.sh | b
   
 ### 手动安装  
 
-#### 免费版下载
-选择适合你的系统的文件并下载，[点击进入下载](https://mirrors.host900.com/snail007/proxy_admin_free/)
+选择适合你的系统的文件并下载，[点击进入下载](https://github.com/snail007/proxy_admin_free/releases)
 
-#### VIP版本下载
-选择适合你的系统的文件并下载，[点击进入下载](https://mirrors.host900.com/snail007/proxy-admin-vip)
+如果上面不能正常下载，点击这里[镜像下载](https://mirrors.host900.com/snail007/proxy_admin_free/)
 
 ### Linux && MacOS
 
@@ -159,6 +149,25 @@ Linux下面可以通过systemctl管理。
 MacOS下面可以通过命令管理。
 
 Windows下面可以使用系统的服务管理器管理。
+
+## HTTP接口操作面板数据
+控制面板对登录模式默认是验证码登录模式，还可以在配置文件开启token模式，这样登录可以同时支持验证码和token模式，利用token模式，你可以轻松模拟登录面板，然后你的程序通过http就能像在面板一样操作数据，还能实现后台没有的功能哟，比如批量导入，启动，停止等操作。
+
+开启token模式步骤
+
+1.修改控制面板配置文件app.toml,[login]下面的
+```ini
+enable_token=true
+token="xxx"
+```
+提醒：`xxx`是具体的token，应该设置为一个私密的英文数字字符串，长度不限制，建议32个左右。
+
+2.请求登录接口的时候  
+1. 需要设置一个HTTP头部：`X-Requested-With: XMLHttpRequest`，这样才能正常登录。
+2. 登录表单数据除了用户名和密码，还要一个token字段，值是配置文件里面[login]设置的token。
+
+3.要操面板的某个功能的数据，请自行使用Chrome浏览器开启开发者工具，观察面板操作的对应接口，请求表单数据字段情况。
+
 
 ## 鸣谢
 
