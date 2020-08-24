@@ -19,7 +19,7 @@ manual="https://snail007.github.io/goproxy/manual/"
 LAST_VERSION=$(curl --silent "https://api.github.com/repos/snail007/proxy_admin_free/releases/latest" | grep -Po '"tag_name": "\K.*?(?=")')
 wget  -t 1 "https://github.com/snail007/proxy_admin_free/releases/download/${LAST_VERSION}/$F"
 else
-manual="https://snail007.github.io/goproxy/manual/zh/"
+manual="https://snail.gitee.io/proxy/manual/zh/"
 wget  -t 1 "https://mirrors.host900.com/snail007/proxy_admin_free/$F"
 fi
 echo -e ">>> installing ... \n"
