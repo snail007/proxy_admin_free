@@ -54,9 +54,7 @@ ProxyAdmin 是强大的代理服务工具 [snail007/goproxy](https://github.com/
 
 ##### 免费版执行这个哟:
 
-```shell  
-curl -L https://mirrors.host900.com/snail007/proxy_admin_free/install_auto.sh | bash  
-```  
+请使用手动安装。
 
 ##### VIP版执行这个:
 
@@ -72,7 +70,7 @@ curl -L https://mirrors.host900.com/snail007/proxy-admin-vip/install_auto.sh | b
 
 #### 免费版下载
 
-选择适合你的系统的文件并下载，[点击进入下载](https://mirrors.host900.com/snail007/proxy_admin_free/)
+选择适合你的系统的文件并下载，[点击进入下载](https://github.com/snail007/proxy_admin_free/releases)
  
 #### VIP版本下载
 
