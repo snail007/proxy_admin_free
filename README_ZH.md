@@ -3,9 +3,9 @@ ProxyAdmin 是强大的代理服务工具 [snail007/goproxy](https://github.com/
 
 <hr>
 
-[English](/README_ZH.md)
+[Manual](https://snail.gitee.io/proxy/manual/) ｜ [参考手册](https://snail.gitee.io/proxy/manual/zh/)
 
-[snail007/goproxy 手册](https://snail007.github.io/goproxy/manual/zh)
+手册同时适用于命令行goproxy和proxyadmin面板，控制面板只是命令行goproxy的界面化，使用参数完全一样。
 
 ## 加入我们
 
@@ -14,31 +14,31 @@ ProxyAdmin 是强大的代理服务工具 [snail007/goproxy](https://github.com/
 ## 预览
 
 ### HTTP(S)代理
-![](/res/images/http_cn.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/res/images/http_cn.gif)
 
 ### Socks5代理
-![](/res/images/socks5_cn.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/res/images/socks5_cn.gif)
 
 ### 内网穿透
-![](/res/images/nat_cn.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/res/images/nat_cn.gif)
 
 ### 远程桌面-VNC & Web-SSH
-![](/res/images/rdp.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/res/images/rdp.gif)
 
 ### 自定义服务
-![](/res/images/diy_cn.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/res/images/diy_cn.gif)
 
 ### 客户端连接参数
-![](/res/images/client_args.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/res/images/client_args.gif)
 
 ### 实时日志
-![](/res/images/logging.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/res/images/logging.gif)
 
 ### 调试模式
-![](/res/images/debugging.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/res/images/debugging.gif)
 
 ### 全功能演示
-![](/res/images/demo_cn.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/res/images/demo_cn.gif)
 
 ## 开始使用
 
@@ -55,13 +55,13 @@ ProxyAdmin 是强大的代理服务工具 [snail007/goproxy](https://github.com/
 ##### 免费版执行这个哟:
 
 ```shell  
-curl -L https://mirrors.host900.com/snail007/proxy_admin_free/install_auto.sh | bash  
+curl -L https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/install_auto.sh | bash  
 ```  
 
 ##### VIP版执行这个:
 
 ```shell  
-curl -L https://mirrors.host900.com/snail007/proxy-admin-vip/install_auto.sh | bash  
+curl -L https://mirrors.host900.com/https://github.com/snail007/proxy-admin-vip/blob/master/install_auto.sh | bash  
 ```  
  
 安装完成，配置目录是/etc/gpa，更详细的使用方法请参考上面的手册目录，进一步了解你想要使用的功能。 
@@ -72,11 +72,11 @@ curl -L https://mirrors.host900.com/snail007/proxy-admin-vip/install_auto.sh | b
 
 #### 免费版下载
 
-选择适合你的系统的文件并下载，[点击进入下载](https://mirrors.host900.com/snail007/proxy_admin_free/)
+选择适合你的系统的文件并下载，[点击进入下载](https://github.com/snail007/proxy_admin_free/releases)
  
 #### VIP版本下载
 
-选择适合你的系统的文件并下载，[点击进入下载](https://mirrors.host900.com/snail007/proxy-admin-vip)
+选择适合你的系统的文件并下载，[点击进入下载](https://github.com/snail007/proxy-admin-vip/releases)
  
 ### Linux && MacOS
 
@@ -93,7 +93,7 @@ root账号执行：
 
 管理员打开 goproxy_helper.exe，可以一键安装/卸载/重启服务。
 
-![](/res/images/gh.png)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/res/images/gh.png)
 
 2. 命令行安装
 

@@ -3,38 +3,36 @@ ProxyAdmin is a powerful web console of [snail007/goproxy](https://github.com/sn
 
 <hr>
 
-[中文简介](/README_ZH.md)
-
-[snail007/goproxy manual](https://snail007.github.io/goproxy/manual/#/)
+[中文简介](/README_ZH.md) | [snail007/goproxy manual](https://snail.gitee.io/proxy/manual/zh)
 
 ## Preview
 
 ### HTTP(S) Proxies
-![](/res/images/http_en.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/res/images/http_en.gif)
 
 ### Socks5 Proxies
-![](/res/images/socks5_en.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/res/images/socks5_en.gif)
 
 ### Internal NAT
-![](/res/images/nat_en.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/res/images/nat_en.gif)
 
 ### Remote Desktop - VNC & Web-SSH
-![](/res/images/rdp.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/res/images/rdp.gif)
 
 ### DIY Service
-![](/res/images/diy_en.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/res/images/diy_en.gif)
 
 ### Client Arguments
-![](/res/images/client_args.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/res/images/client_args.gif)
 
 ### View Logging
-![](/res/images/logging.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/res/images/logging.gif)
 
 ### Debug Mode
-![](/res/images/debugging.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/res/images/debugging.gif)
 
 ### Full Demo
-![](/res/images/demo_cn.gif)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/res/images/demo_cn.gif)
 
 ## Start Using
 
@@ -45,7 +43,7 @@ If your VPS is a Linux 64-bit system, you only need to execute the following sen
 Tip: All operations require root privileges.
 
 ```shell
-curl -L https://raw.githubusercontent.com/snail007/proxy_admin_free/master/install_auto.sh | bash
+curl -L https://mirrors.host900.com/https://raw.githubusercontent.com/snail007/proxy_admin_free/master/install_auto.sh | bash
 ```
 
 The installation is complete, the configuration directory is /etc/gpa. For more detailed usage, please refer to the manual directory above to learn more about the features you want to use.
@@ -71,7 +69,7 @@ The root account is executed:
 
 The administrator opens goproxy_helper.exe and can install/uninstall/restart the service with one click.
 
-![](/res/images/gh.png)
+![](https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/res/images/gh.png)
 
 2. Command line installation
 

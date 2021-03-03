@@ -7,21 +7,11 @@ fi
 mkdir /tmp/proxy
 cd /tmp/proxy
 echo -e "\n>>> downloading ... $F\n"
-set +e
-CN=$(wget -O - -t 3 --dns-timeout 1 --connect-timeout 2 --read-timeout 2 myip.ipip.net)
-if [ "$CN" != "" ];then
-CN=$(echo $CN| grep "中国" |grep -v grep)
-fi
-set -e
-manual=""
-if [ -z "$CN" ];then
-manual="https://snail007.github.io/goproxy/manual/"
-LAST_VERSION=$(curl --silent "https://api.github.com/repos/snail007/proxy_admin_free/releases/latest" | grep -Po '"tag_name": "\K.*?(?=")')
-wget  -t 1 "https://github.com/snail007/proxy_admin_free/releases/download/${LAST_VERSION}/$F"
-else
+
 manual="https://snail.gitee.io/proxy/manual/zh/"
-wget  -t 1 "https://mirrors.host900.com/snail007/proxy_admin_free/$F"
-fi
+LAST_VERSION=$(curl --silent "https://mirrors.host900.com/https://api.github.com/repos/snail007/proxy_admin_free/releases/latest" | grep -Po '"tag_name":"\K.*?(?=")')
+wget  -t 1 "https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/releases/download/${LAST_VERSION}/$F"
+
 echo -e ">>> installing ... \n"
 #install proxy-admin
 tar zxvf $F >/dev/null 2>&1 
