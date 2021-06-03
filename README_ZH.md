@@ -86,7 +86,6 @@ root账号执行：
 
 `./proxy-admin install`
 
-
 ### Windows
 
 1. 使用助手工具安装
@@ -180,6 +179,37 @@ token="xxx"
 
 3.要操面板的某个功能的数据，请自行使用Chrome浏览器开启开发者工具，观察面板操作的对应接口，请求表单数据字段情况。
 
+## 升级更新
+
+### Linux
+用`root`打开一个终端。
+
+```shell
+proxy-admin update
+```
+
+已经安装了最新的版本，默认不会更新，如果想强制更新加上 -f 参数即可。
+
+```shell
+proxy-admin update -f
+```
+
+### Windows
+用`管理员`权限打开命令提示符窗口。
+
+```bat
+c:\
+cd gpa
+proxy-admin update
+```
+
+已经安装了最新的版本，默认不会更新，如果想强制更新加上 -f 参数即可。
+
+```shell
+c:\
+cd gpa
+proxy-admin update -f
+```
 
 ## 鸣谢
 

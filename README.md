@@ -138,6 +138,37 @@ MacOS can be managed by commands below.
 
 Windows can be managed using the system's Service Manager.
 
+## UPDATE
+
+### Linux
+
+```shell
+proxy-admin update
+```
+
+Force update.
+
+```shell
+proxy-admin update -f
+```
+
+### Windows
+
+```bat
+c:\
+cd gpa
+proxy-admin update
+```
+
+Force update.
+
+```shell
+c:\
+cd gpa
+proxy-admin update -f
+```
+
+
 ## Thanks
 
 [Back to the light](https://gitee.com/yinqi) The back-end template provided us a comfortable interactive experience.
