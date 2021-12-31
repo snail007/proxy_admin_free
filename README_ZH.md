@@ -151,6 +151,10 @@ proxy-admin stop       停止服务
 
 proxy-admin restart    重启服务
 
+proxy-admin backup     备份数据
+
+proxy-admin restore    恢复备份的数据
+
 2.使用系统服务管理工具管理。
 
 proxy-admin 系统服务名称是：proxyadmin
