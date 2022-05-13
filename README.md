@@ -49,6 +49,16 @@ curl -L https://mirrors.host900.com/https://raw.githubusercontent.com/snail007/p
 The installation is complete, the configuration directory is /etc/gpa. For more detailed usage, please refer to the manual directory above to learn more about the features you want to use.
 
 If the installation fails or your vps is not a linux64-bit system, follow the manual installation steps below.
+
+### Use Docker-Compose
+
+Download `docker-compose.yaml` and run this command:
+
+```shell
+docker-compose up -d
+```
+
+Tip: It maybe need 1 min to started.
   
 ### Manual Installation
 

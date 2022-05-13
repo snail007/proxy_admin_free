@@ -67,6 +67,16 @@ curl -L https://mirrors.host900.com/https://github.com/snail007/proxy-admin-vip/
 安装完成，配置目录是/etc/gpa，更详细的使用方法请参考上面的手册目录，进一步了解你想要使用的功能。 
 
 如果安装失败或者你的vps不是linux64位系统，请按照下面的手动安装步骤安装。 
+
+### 使用 Docker-Compose
+
+下载 `docker-compose.yaml` 然后运行如下命令:
+
+```shell
+docker-compose up -d
+```
+
+Top: 可能需要一分钟时间启动 
   
 ### 手动安装  
 

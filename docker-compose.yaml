@@ -1,0 +1,8 @@
+version: '3'
+  
+services:
+  ubuntu:
+    image: ubuntu
+    command: bash -c "apt-get update && apt-get install curl wget -y && curl -L https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/install_auto.sh | bash && tail -f /dev/null"
+    network_mode: host
+    restart: unless-stopped
