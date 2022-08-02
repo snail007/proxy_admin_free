@@ -1,5 +1,5 @@
 #!/bin/bash
-F="proxy-admin_linux-amd64.tar.gz"
+F="proxy-admin_linux-arm64.tar.gz"
 set -e
 if [ -e /tmp/proxy ]; then
     rm -rf /tmp/proxy
