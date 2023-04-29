@@ -14,14 +14,18 @@ wget  -t 1 "https://mirrors.host900.com/https://github.com/snail007/proxy_admin_
 
 echo -e ">>> installing ... \n"
 #install proxy-admin
-tar zxvf $F >/dev/null 2>&1 
+tar zxvf $F >/dev/null 2>&1
+rm -rf $F
 chmod +x proxy-admin
+mkdir -p /usr/local/bin/
+cp -f proxy-admin /usr/local/bin/
 set +e
-./proxy-admin uninstall >/dev/null 2>&1 
+cd /usr/local/bin/
+./proxy-admin uninstall >/dev/null 2>&1
+cp -f /tmp/proxy/proxy-admin /usr/local/bin/
 set -e
 ./proxy-admin install
 ./proxy-admin start
-rm $F
 set +e
 systemctl status proxyadmin &
 set -e
@@ -29,6 +33,6 @@ sleep 2
 echo  -e "\n>>> install done, thanks for using snail007/proxy-admin\n"
 echo  -e ">>> install path /usr/local/bin/proxy-admin\n"
 echo  -e ">>> configuration path /etc/gpa\n"
-echo  -e ">>> uninstall just exec : proxy-admin uninstall\n"
+echo  -e ">>> uninstall just exec : /usr/local/bin/proxy-admin uninstall && rm /etc/gpa\n"
 echo  -e ">>> please visit : http://YOUR_IP:32080/ username: root, password: 123\n"
 echo  -e ">>> How to using? Please visit : $manual\n"
