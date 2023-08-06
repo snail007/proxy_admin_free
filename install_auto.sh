@@ -1,4 +1,8 @@
 #!/bin/bash
+#!/bin/bash
+if [ "$1" == "cn" ]; then
+  MIRROR="https://mirrors.goproxyauth.com/"
+fi
 F="proxy-admin_linux-amd64.tar.gz"
 set -e
 if [ -e /tmp/proxy ]; then
@@ -9,8 +13,8 @@ cd /tmp/proxy
 echo -e "\n>>> downloading ... $F\n"
 
 manual="https://snail.gitee.io/proxy/manual/zh/"
-LAST_VERSION=$(curl --silent "https://mirrors.host900.com/https://api.github.com/repos/snail007/proxy_admin_free/releases/latest" | grep -Po '"tag_name":"\K.*?(?=")')
-wget  -t 1 "https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/releases/download/${LAST_VERSION}/$F"
+LAST_VERSION=$(curl --silent "${MIRROR}https://api.github.com/repos/snail007/proxy_admin_free/releases/latest" | grep -Po '"tag_name": *"\K.*?(?=")')
+wget  -t 1 "${MIRROR}https://github.com/snail007/proxy_admin_free/releases/download/${LAST_VERSION}/$F"
 
 echo -e ">>> installing ... \n"
 #install proxy-admin

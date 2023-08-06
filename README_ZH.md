@@ -55,13 +55,13 @@ ProxyAdmin 是强大的代理服务工具 [snail007/goproxy](https://github.com/
 ##### 免费版执行这个哟:
 
 ```shell  
-curl -L https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/install_auto.sh | bash  
+bash -c "$(curl -s -L https://mirrors.goproxyauth.com/https://github.com/snail007/proxy_admin_free/blob/master/install_auto.sh)" @ cn  
 ```  
 
 ##### VIP版执行这个:
 
 ```shell  
-curl -L https://mirrors.host900.com/https://github.com/snail007/proxy-admin-vip/blob/master/install_auto.sh | bash  
+bash -c "$(curl -s -L https://mirrors.goproxyauth.com/https://github.com/snail007/proxy-admin-vip/blob/master/install_auto.sh)" @ cn   
 ```  
  
 安装完成，配置目录是/etc/gpa，更详细的使用方法请参考上面的手册目录，进一步了解你想要使用的功能。 

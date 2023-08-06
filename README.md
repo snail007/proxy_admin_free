@@ -43,7 +43,7 @@ If your VPS is a Linux 64-bit system, you only need to execute the following sen
 Tip: All operations require root privileges.
 
 ```shell
-curl -L https://mirrors.host900.com/https://raw.githubusercontent.com/snail007/proxy_admin_free/master/install_auto.sh | bash
+bash -c "$(curl -s -L https://raw.githubusercontent.com/snail007/proxy_admin_free/master/install_auto.sh)"
 ```
 
 The installation is complete, the configuration directory is /etc/gpa. For more detailed usage, please refer to the manual directory above to learn more about the features you want to use.
