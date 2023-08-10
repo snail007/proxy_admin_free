@@ -63,7 +63,7 @@ bash -c "$(curl -s -L https://mirrors.goproxyauth.com/https://github.com/snail00
 免费版国外：
 
 ```shell  
-bash -c "$(curl -s -L https://github.com/snail007/proxy_admin_free/blob/master/install_auto.sh)" 
+bash -c "$(curl -s -L https://github.com/snail007/proxy_admin_free/raw/master/install_auto.sh)" 
 ```
 
 ##### VIP版执行这个:
@@ -77,7 +77,7 @@ bash -c "$(curl -s -L https://mirrors.goproxyauth.com/https://github.com/snail00
 VIP版国外：
 
 ```shell  
-bash -c "$(curl -s -L https://github.com/snail007/proxy-admin-vip/blob/master/install_auto.sh)" 
+bash -c "$(curl -s -L https://github.com/snail007/proxy-admin-vip/raw/master/install_auto.sh)" 
 ```  
  
 安装完成，配置目录是/etc/gpa，更详细的使用方法请参考上面的手册目录，进一步了解你想要使用的功能。 
