@@ -3,6 +3,9 @@ ProxyAdmin 是强大的代理服务工具 [snail007/goproxy](https://github.com/
 
 <hr>
 
+### [Official Website](https://www.goproxy.win/)
+### [官方网站](https://www.goproxy.win/)
+
 [Manual](https://snail.gitee.io/proxy/manual/) ｜ [参考手册](https://snail.gitee.io/proxy/manual/zh/)
 
 手册同时适用于命令行goproxy和proxyadmin面板，控制面板只是命令行goproxy的界面化，使用参数完全一样。
@@ -54,30 +57,14 @@ ProxyAdmin 是强大的代理服务工具 [snail007/goproxy](https://github.com/
 
 ##### 免费版执行这个哟:
 
-免费版国内：
-
 ```shell  
-bash -c "$(curl -s -L https://mirrors.goproxyauth.com/https://github.com/snail007/proxy_admin_free/blob/master/install_auto.sh)" @ cn  
-```
-
-免费版国外：
-
-```shell  
-bash -c "$(curl -s -L https://github.com/snail007/proxy_admin_free/raw/master/install_auto.sh)" 
-```
+curl -L https://mirrors.host900.com/https://github.com/snail007/proxy_admin_free/blob/master/install_auto.sh | bash  
+```  
 
 ##### VIP版执行这个:
 
-VIP版国内：
-
 ```shell  
-bash -c "$(curl -s -L https://mirrors.goproxyauth.com/https://github.com/snail007/proxy-admin-vip/blob/master/install_auto.sh)" @ cn   
-```  
-
-VIP版国外：
-
-```shell  
-bash -c "$(curl -s -L https://github.com/snail007/proxy-admin-vip/raw/master/install_auto.sh)" 
+curl -L https://mirrors.host900.com/https://github.com/snail007/proxy-admin-vip/blob/master/install_auto.sh | bash  
 ```  
  
 安装完成，配置目录是/etc/gpa，更详细的使用方法请参考上面的手册目录，进一步了解你想要使用的功能。 

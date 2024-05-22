@@ -3,6 +3,9 @@ ProxyAdmin is a powerful web console of [snail007/goproxy](https://github.com/sn
 
 <hr>
 
+### [Official Website](https://www.goproxy.win/)
+### [官方网站](https://www.goproxy.win/)
+
 [中文简介](/README_ZH.md) | [snail007/goproxy manual](https://snail.gitee.io/proxy/manual/zh)
 
 ## Preview
@@ -43,7 +46,7 @@ If your VPS is a Linux 64-bit system, you only need to execute the following sen
 Tip: All operations require root privileges.
 
 ```shell
-bash -c "$(curl -s -L https://raw.githubusercontent.com/snail007/proxy_admin_free/master/install_auto.sh)"
+curl -L https://mirrors.host900.com/https://raw.githubusercontent.com/snail007/proxy_admin_free/master/install_auto.sh | bash
 ```
 
 The installation is complete, the configuration directory is /etc/gpa. For more detailed usage, please refer to the manual directory above to learn more about the features you want to use.
