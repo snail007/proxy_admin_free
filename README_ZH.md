@@ -6,7 +6,7 @@ ProxyAdmin 是强大的代理服务工具 [snail007/goproxy](https://github.com/
 ### [Official Website](https://www.goproxy.win/)
 ### [官方网站](https://www.goproxy.win/)
 
-[Manual](https://snail.gitee.io/proxy/manual/) ｜ [参考手册](https://snail.gitee.io/proxy/manual/zh/)
+[Manual](https://snail007.goproxyauth.com/goproxy/manual/) ｜ [参考手册](https://snail007.goproxyauth.com/goproxy/manual/zh/)
 
 手册同时适用于命令行goproxy和proxyadmin面板，控制面板只是命令行goproxy的界面化，使用参数完全一样。
 
